@@ -20,8 +20,10 @@ travel_log = [
 ]
 
 def add_new_country(Country, visits, cities):
-    new_data = {}
-    travel_log.append(Country, visits, cities) 
+    new_data = {
+        Country : {"Cities_visited": cities, "total_visits": visits}
+    }
+    travel_log.append(new_data) 
 
 
 #🚨 Do NOT change the code above
