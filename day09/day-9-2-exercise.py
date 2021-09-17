@@ -31,10 +31,6 @@ def add_new_country(Country, visits, cities):
 #TODO: Write the function that will allow new countries
 #to be added to the travel_log. 👇
 
-
-
-
-
 #🚨 Do not change the code below
 add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 print(travel_log)
